@@ -22,13 +22,13 @@ type AuthContextData = {
     isAuthenticated: boolean;
 }
 
-type AuthProviderPRops = {
+type AuthProviderProps = {
     children: ReactNode;
 }
 
 export const AuthContext = createContext({} as AuthContextData)
 
-export function AuthProvider({ children }: AuthProviderPRops) {
+export function AuthProvider({ children }: AuthProviderProps) {
     const [user, setUser] = useState<User>();   
     const isAuthenticated = !!user;
 
