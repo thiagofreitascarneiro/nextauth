@@ -3,10 +3,9 @@
     <p>create authentication, authorization and refresh token processes in the React with NextJS allowing to control access routh and components both client-side and serve-side. </p>
 </div>
 
-# Descrição
+#
 
-
-## Back-end Node-Js
+# Back-end Node-Js
 
 This back-and was developed by RocketSeat
 
